@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width-device-width, initial-scale=1">
+
+        <title>KK's Portfolio Site</title>
+        
+        <link rel="stylesheet" type="text/css" href="./Assets/css/reset.css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
+
+        <style>
+            @media screen and (max-width: 590px) {
+                .head {
+                    width: 450px;
+                    margin:0 auto;
+                }
+
+                #name {
+                    font-size: 30px;
+                }
+
+                #main h1 {
+                    font-size: 30px;
+                }
+
+                .col-sm-2 {
+                    margin-top: 20px;
+                }
+
+                #main {
+                    width: 450px;
+                    margin: 0 auto;
+                }
+            }
+
+            @media screen and (max-width: 575px) {
+                #main h1 {
+                    text-align: center;
+                    font-size: 30px;
+                }
+             }
+        </style>
+    </head>
+    
+    <body>
+        <div>
+            <header>
+                <div class="head container-xs container-sm container-md container-lg container-xl wrapper">
+                    <ul class="row">
+                        <label class="col-sm-5" id="name"><b>Kendra Kwoka</b></label>
+                        <li class="col-sm-1"></li>
+                        <li class="col-sm-2"><a style="text-decoration: none" href="index.html">About</a></li>
+                        <li class="col-sm-2"><a style="text-decoration: none" href="portfolio.html">Portfolio</a></li>
+                        <li class="col-sm-2"><a style="text-decoration: none" href="contact.html">Contact</a></li>
+                    </ul>
+                </div>            
+            </header>
+        </div>
+
+        <br>
+        <br>
+
+        <div id="main" class="container-sm container-md container-lg container-xl wrapper">
+            <h1>Contact</h1>
+
+            <form action="action_page.php">
+            
+                <label for="fname">First Name</label>
+                <br>
+                <input type="text" class="inpbox" placeholder="Your name...">
+                <br>
+                <br>
+
+                <label for="email">Email</label>
+                <br>
+                <input type="text" class="inpbox" placeholder="example@example.com">
+                <br>
+                <br>
+            
+                <label for="subject">Subject</label>
+                <br>
+                <textarea id="subject" placeholder="Your message here..." style="border:8px double teal"></textarea>
+                <br>
+                <br>
+            
+                <input type="submit" value="Submit">
+                <br>    
+            </form>
+            <br>
+        </div>
+
+            <footer>
+                <p>Copyright &copy; </p>
+            </footer>
+
+            <br>
+
+        <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    </body>
+</html>
