@@ -11,7 +11,22 @@
         <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
 
         <style>
-            @media screen (min-width: 576px) and (max-width: 590px) {
+            @media screen and (min-width: 992px) {
+                .puppypics, .projlabel {
+                    margin-left: 85px;
+                }
+            }
+
+
+            @media screen and (min-width: 771px) and (max-width: 991px) {
+                .puppypics, .projlabel {
+                    margin-right: 0;
+                    margin-left: 30px;
+                }
+            }
+
+            
+            @media screen and (min-width: 576px) and (max-width: 770px) {
                 #name {
                     font-size: 30px;
                 }
@@ -27,6 +42,19 @@
                 #main {
                     width: 590px;
                     margin: 0 auto;
+                }
+
+                .puppypics {
+                    width: 200px;
+                    height: 200px;  
+                    margin-right: 0;
+                    margin-left: 10px;
+                }
+
+                .projlabel {
+                    width: 195px;
+                    top: 180px;
+                    margin-left: 10px;
                 }
              }
 
@@ -92,32 +120,36 @@
 
         <div id="main" class="container-xs container-sm container-md container-lg container-xl wrapper">
             <h1>Portfolio</h1>
-
+            <div class="contact">
+                <p class="resLink"><a class="resLink" href="Assets/Resume 2020 (1).pdf" target="_blank" style="text-decoration: none">$(Resume).click()</a></p>
+                <p class="resLink"><a class="resLink" href="https://www.linkedin.com/in/kendra-kwoka-553b68196/" target="_blank" style="text-decoration: none">$(LinkedIn).click()</a></p>
+                <p class="resLink"><a class="resLink" href="https://github.com/kkwoka" target="_blank" style="text-decoration: none">$(Github).click()</a></p>
+            </div>
             <div class="container-xs container-sm container-md container-lg container-xl wrapper">
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="Assets/Images/planner.png" class="puppypics">
+                        <img src="Assets/Images/Scheduler.png" class="puppypics">
                         <div><a class="projlabel" style="text-decoration: none" href="https://kkwoka.github.io/DailyPlanner/" target="_blank">Day Planner Project</a></div>
                     </div>
                     <div class="col-sm-6">
-                        <img src="Assets/Images/quiz2.png" class="puppypics">
+                        <img src="Assets/Images/CodeQuiz.png" class="puppypics">
                         <div><a class="projlabel" style="text-decoration: none" href="https://kkwoka.github.io/JavaScript_Quiz/" target="_blank">Quiz!</a></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="Assets/Images/password-big.png" class="puppypics">
+                        <img src="Assets/Images/PassGen.png" class="puppypics">
                         <div><a class="projlabel" style="text-decoration: none" href="https://kkwoka.github.io/passwordGenerator/" target="_blank">Password Generator</a></div>
                     </div>
                     <div class="col-sm-6">
-                        <img src="Assets/Images/project4.jpg" class="puppypics">
-                        <div class="projlabel">Project 4</div>
+                        <img src="Assets/Images/smorgas-chord.png" class="puppypics">
+                        <div><a class="projlabel" style="text-decoration: none" href="https://kkwoka.github.io/Smorgas-Chord/" target="_blank">Smorgas-Chord</a></div>
                     </div>
                 </div>
                 <div class="row">
                     <div class="col-sm-6">
-                        <img src="Assets/Images/project5.jpg" class="puppypics">
-                        <div class="projlabel">Project 5</div>
+                        <img src="Assets/Images/WeatherDash.png" class="puppypics">
+                        <div><a class="projlabel" style="text-decoration: none" href="https://kkwoka.github.io/WeatherDashboard/" target="_blank">Weather Dashboard</a></div>
                     </div>
                 </div>
             </div>

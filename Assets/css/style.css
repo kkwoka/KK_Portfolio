@@ -40,6 +40,10 @@ li a {
     padding-right: 40px;
 }
 
+.col-sm-6 {
+    text-shadow: 5px 3px  rgb(100, 50, 200);
+}
+
 .head {
    margin: 0 auto;
    width: 960px;
@@ -91,10 +95,11 @@ h1 {
 .puppypics {
     width: 250px;
     height: 250px;
-    float: left;
+    /* float: left; */
     padding-left: 5px; 
     margin-right: 80px;
     margin-top: 30px;
+    box-shadow: lightsteelblue 10px 10px 5px;
 }
 
 .projlabel {
@@ -154,5 +159,17 @@ footer p {
     font-size: 12px;
 }
 
+.resLink {
+    /* margin-left: 20px; */
+    color: whitesmoke;
+    text-align: center;
+    font-weight: bold;
+    /* padding: 5px; */
+}
 
-
+.contact {
+    border: 2px solid lightcoral;
+    font-size: 18px;
+    /* margin: 15px; */
+    background-image: url("../Images/contact4.jpg");
+}
