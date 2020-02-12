@@ -1,5 +1,5 @@
 # Portfolio
-This page will allow the user to store information about their daily to-dos. The user may type what they would like to do in the "To Do" section of each timeblock. If the user clicks the save button on the right, the information will get stored and reappear on the screen should it refresh. If they user enters something different into a To Do box and presses the save button again, the information will update and contain the most current info saved. The differing colors of the To Do slots indicate past, present, and future.
+This page will showcase my projects and coding achievements to future employers.
 
 ## Deployment Link
 https://kkwoka.github.io/KK_Portfolio
@@ -10,12 +10,15 @@ https://kkwoka.github.io/KK_Portfolio
 * contact.html
 * README.md
 * Assets/
+    * Resume_2020_Dev.pdf
     * Assets/css
         * reset.css
         * style.css
     * Assets/Images
         * CodeQuiz.png
         * contact4.png
+        * KodaDork.jpg
+        * KodaPretty2.jpg
         * linkd.jpg
         * paisley.png
         * PassGen.png
@@ -28,6 +31,8 @@ https://kkwoka.github.io/KK_Portfolio
         * weather.jpg
         * WeatherDash.png
         * Portfolio.png
+        * prof1.jpg
+        * prof2copy.jpg
         * AboutMe.png
         * Contact.png
 
