@@ -24,6 +24,7 @@ https://kkwoka.github.io/KK_Portfolio
         * quiz2.png
         * Scheduler.png
         * smorgas-chord.png
+        * SmorgasShot.png
         * weather.jpg
         * WeatherDash.png
         * Portfolio.png
@@ -37,4 +38,8 @@ https://kkwoka.github.io/KK_Portfolio
 ## Images of Working Password Generator
 ![Image of About Me](./Assets/Images/AboutMe.png)
 ![Image of Portfolio](./Assets/Images/Portfolio.png)
-![Image of Contact](./Assets/Images/Contact.png)
+![Image of CodeQuiz](./Assets/Images/CodeQuiz.png)
+![Image of PassGen](./Assets/Images/PassGen.png)
+![Image of Scheduler](./Assets/Images/Scheduler.png)
+![Image of WeatherDash](./Assets/Images/WeatherDash.png)
+![Image of Smorgas-Chord](./Assets/Images/SmorgasShot.png)
