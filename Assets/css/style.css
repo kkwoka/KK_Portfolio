@@ -167,9 +167,14 @@ footer p {
 
 .resLink {
     color: lightcoral;
-    text-align: center;
+    text-align: left;
     font-weight: bold;
     font-size: 18px;
+    margin-left: 20px;
+}
+
+.idk {
+    background-color: white;
 }
 
 /* .contact {
@@ -178,14 +183,7 @@ footer p {
     background-image: url("../Images/contact4.jpg");
 } */
 
-.personalResources {
+/* .personalResources {
     text-align: center;
     margin-top: 20px;
-}
-
-.portLink {
-    color: lightcoral;
-    font-size: 18px;
-    font-weight: bold;
-    margin: 50px;
-}
+} */
