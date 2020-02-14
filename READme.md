@@ -30,19 +30,22 @@ https://kkwoka.github.io/KK_Portfolio
         * SmorgasShot.png
         * weather.jpg
         * WeatherDash.png
-        * Portfolio.png
+        * PortPage.png
         * prof1.jpg
         * prof2copy.jpg
-        * AboutMe.png
-        * Contact.png
+        * About.png
+        * ContactPage.png
 
 ## Resources
 * Bootstrap
 * JQuery
+* FontAwesome
 
 ## Images of Working Password Generator
-![Image of About Me](./Assets/Images/AboutMe.png)
-![Image of Portfolio](./Assets/Images/Portfolio.png)
+![Image of About Me](./Assets/Images/About.png)
+![Image of Portfolio](./Assets/Images/PortPage.png)
+![Image of Portfolio](./Assets/Images/ContactPage.png)
+
 ![Image of CodeQuiz](./Assets/Images/CodeQuiz.png)
 ![Image of PassGen](./Assets/Images/PassGen.png)
 ![Image of Scheduler](./Assets/Images/Scheduler.png)
