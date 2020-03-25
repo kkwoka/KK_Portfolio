@@ -1,7 +1,11 @@
 body {
     margin: 20px;
-    background-color: black;
-    background:radial-gradient(#333,#000);
+    background-image: url("../Images/paisley.png");
+    /* background-color: black;
+    background:radial-gradient(#333,#000); */
+
+    /* background-color: wheat;
+    background:radial-gradient( rgb(255, 225, 185), rgb(240, 185, 151)); */
 }
 
 header {
@@ -26,7 +30,7 @@ ul {
 
 .headerTabs a {
     display: inline-block;
-    color: white;
+    color: grey;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
@@ -50,7 +54,7 @@ ul {
 
 h1 {
     color: teal;
-    text-align: left;
+    text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
     margin-left: 20px;
     margin-right: 20px;
@@ -93,7 +97,7 @@ h1 {
     width: 250px;
     height: 250px;
     padding-left: 5px; 
-    margin-right: 80px;
+    margin-left: 0px;
     margin-top: 30px;
     border-radius: 30px 30px;
     box-shadow: lightslategrey 5px 5px 5px;
@@ -114,7 +118,7 @@ h1 {
 }
 
 .col-sm-6:hover .puppypics {
-    opacity: .3;
+    opacity: .7;
 }
 
 .col-sm-6:hover .projlabel {
@@ -127,26 +131,6 @@ form {
     width: 100%;
     padding-right: 30px;
 }
-
-/* .inpbox {
-    width: 100%;
-    padding-right: 30px;
-    border: 1px dashed teal;
-}
-
-#subject {
-    width: 100%;
-    height: 150px;
-    padding-right: 30px;
-}
-
-input[type=submit] {
-    background-color: teal;
-    color: white;
-    border: none;
-    padding: 16px 32px;
-    margin: 4px 2px;
-} */
 
 footer {
     background-color: #666666;
@@ -177,6 +161,28 @@ footer p {
     background-color: white;
 }
 
+.show {
+    color: greenyellow;
+    font-size: 30px;
+}
+
+.know {
+    color: teal;
+    font-size: 30px;
+}
+
+.card {
+    width: 75%;
+    margin: 0 auto;
+    margin-bottom: 20px;
+    /* background:radial-gradient( rgb(250, 230, 204), rgb(240, 185, 151)); */
+}
+
+.badges {
+    width: 30px;
+}
+
+
 /* .contact {
     border: 2px lightcoral;
     font-size: 18px;
@@ -186,4 +192,25 @@ footer p {
 /* .personalResources {
     text-align: center;
     margin-top: 20px;
+} */
+
+
+/* .inpbox {
+    width: 100%;
+    padding-right: 30px;
+    border: 1px dashed teal;
+}
+
+#subject {
+    width: 100%;
+    height: 150px;
+    padding-right: 30px;
+}
+
+input[type=submit] {
+    background-color: teal;
+    color: white;
+    border: none;
+    padding: 16px 32px;
+    margin: 4px 2px;
 } */
