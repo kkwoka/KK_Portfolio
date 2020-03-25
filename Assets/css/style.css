@@ -151,10 +151,10 @@ footer p {
 
 .resLink {
     color: lightcoral;
-    text-align: left;
+    text-align: center;
     font-weight: bold;
     font-size: 18px;
-    margin-left: 20px;
+    /* margin-left: 20px; */
 }
 
 .idk {
@@ -163,12 +163,21 @@ footer p {
 
 .show {
     color: greenyellow;
-    font-size: 30px;
+    font-size: 40px;
 }
 
 .know {
     color: teal;
     font-size: 30px;
+    margin: 0px;
+}
+
+.badges {
+    width: 40px;
+}
+
+#badge {
+    width: 60px;
 }
 
 .card {
@@ -178,9 +187,6 @@ footer p {
     /* background:radial-gradient( rgb(250, 230, 204), rgb(240, 185, 151)); */
 }
 
-.badges {
-    width: 30px;
-}
 
 
 /* .contact {
