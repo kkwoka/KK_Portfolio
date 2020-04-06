@@ -9,9 +9,12 @@ body {
 }
 
 header {
-    border-bottom: dashed teal;
     margin: 0 auto;
     padding: 10px;
+}
+
+.head {
+    border-bottom: dashed teal;
 }
 
 #name {
@@ -88,6 +91,7 @@ h1 {
 .bio {
     line-height: 2;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    text-align: center;
     margin-left: 20px;
     margin-right: 20px;
     color: #777777;
