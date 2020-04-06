@@ -2,12 +2,13 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>KK's Portfolio Site</title>
         
         <link rel="stylesheet" type="text/css" href="./Assets/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
         <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
         <link
             rel="stylesheet"
@@ -69,16 +70,16 @@
             <div class="row">
                 <div class="col-sm-6">
                     <h1>Resources</h1>
-                    <p class="resLink"><a class="resLink" target="_blank" href="Assets/Resume_2020_Dev.pdf"><i class="far fa-file-pdf"></i> $(Resume).click()</a></p>
-                    <p class="resLink"><a class="resLink" target="_blank" href="https://www.linkedin.com/in/kendra-kwoka-553b68196/" target="_blank" style="text-decoration: none"><i class="fab fa-linkedin"></i>  $(LinkedIn).click()</a></p>
-                    <p class="resLink"><a class="resLink" target="_blank" href="https://github.com/kkwoka" target="_blank" style="text-decoration: none"><i class="fab fa-github-square"></i>   $(Github).click()</a></p>
+                    <p class="resLink"><a class="resLink" target="_blank" href="Assets/Resume_2020_Dev.pdf"><i class="far fa-file-pdf"></i> Resume</a></p>
+                    <p class="resLink"><a class="resLink" target="_blank" href="https://www.linkedin.com/in/kendra-kwoka-553b68196/" target="_blank" style="text-decoration: none"><i class="fab fa-linkedin"></i>  LinkedIn</a></p>
+                    <p class="resLink"><a class="resLink" target="_blank" href="https://github.com/kkwoka" target="_blank" style="text-decoration: none"><i class="fab fa-github-square"></i>   Github</a></p>
                 </div>
                 <div class="col-sm-6">
                     <h1>Contact</h1>
                     <p class="resLink"><i class="fas fa-mobile-alt"></i>    (936) 520.3642</p>
 
                     <!-- <p class="resLink">Call me: (936) 520.3642</p> -->
-                    <p class="resLink"><i class="far fa-envelope"></i>    kendrakwoka@gmail.com</p>
+                    <p class="resLink"><i class="far fa-envelope"></i> <a href="https://mail.google.com/mail/u/0/?view=cm&fs=1&to=kendrakwoka@gmail.com&tf=1" target="_blank">    kendrakwoka@gmail.com</a></p>
                 </div>
             </div>
         </div>
@@ -106,6 +107,17 @@
                 <br>    
             </form> -->
             <br>
+            <div class="apiHeader">
+                <h5 id="apiH5">Thank You For Taking the Time to Check Out My Portfolio!</h5>
+                <h6>For some fun, Search for images below:</h6>
+                <input id='apiInput' type='text' width='2000px' placeholder="Enter Search Here">
+                <button id="submit" type="submit">Find Pics!</button>
+                <br>
+            </div>
+            
+    
+            <div id="apiBox" class="container-fluid"></div>
+
         </div>
 
             <footer>
@@ -113,8 +125,9 @@
             </footer>
 
             <br>
-
+        <script src="Assets/js/contact.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
 </html>

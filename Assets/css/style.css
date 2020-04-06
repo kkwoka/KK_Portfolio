@@ -105,14 +105,30 @@ h1 {
 
 .projlabel {
     text-align: center;
-    background-color: teal;
-    color: white !important;
+    background-color: thistle;
+    color: gray !important;
+    /* font-weight: bold; */
     position: absolute;
     left: 20px;
-    top: 220px;
+    top: 200px;
     padding: 10px;
-    width: 245px;
-    border-radius: 0px 0px 10px 10px;
+    /* width: 245px; */
+    /* border-radius: 0px 0px 10px 10px; */
+    opacity: 0;
+    transition: 1s ease;
+}
+
+.projlabel2 {
+    text-align: center;
+    background-color: teal;
+    color: white !important;
+    /* font-weight: bold; */
+    position: absolute;
+    left: 20px;
+    top: 155px;
+    padding: 10px;
+    /* width: 100px; */
+    /* border-radius: 0px 0px 10px 10px; */
     opacity: 0;
     transition: 1s ease;
 }
@@ -124,6 +140,11 @@ h1 {
 .col-sm-6:hover .projlabel {
     opacity: 1;
 }
+
+.col-sm-6:hover .projlabel2 {
+    opacity: 1;
+}
+
 
 form {
     margin-left: 20px;
@@ -153,7 +174,7 @@ footer p {
     color: lightcoral;
     text-align: center;
     font-weight: bold;
-    font-size: 18px;
+    font-size: 22px;
     /* margin-left: 20px; */
 }
 
@@ -162,8 +183,9 @@ footer p {
 }
 
 .show {
-    color: greenyellow;
-    font-size: 40px;
+    /* color: greenyellow; */
+    font-size: 60px;
+    margin: 10px;
 }
 
 .know {
@@ -171,20 +193,52 @@ footer p {
     font-size: 30px;
     margin: 0px;
 }
+/* 
+#js {
+    font-size: 50px;
+} */
 
 .badges {
-    width: 40px;
+    width: 60px;
+    margin: 10px;
 }
 
-#badge {
-    width: 60px;
+#mongodb {
+    width: 85px;
 }
+
+#html {
+    width: 80px;
+}
+
+/* #badge {
+    width: 60px;
+} */
 
 .card {
     width: 75%;
     margin: 0 auto;
     margin-bottom: 20px;
     /* background:radial-gradient( rgb(250, 230, 204), rgb(240, 185, 151)); */
+}
+
+.img-title {
+    display: none;
+    margin: 0px;
+}
+
+.apiHeader {
+    text-align: center;
+    padding-bottom: 20px;
+    border-top: dashed teal;
+}
+
+#apiBox {
+    text-align: center;
+}
+
+#apiH5 {
+    margin-top: 10px;
 }
 
 

@@ -2,10 +2,14 @@
 <html lang="en">
     <head>
         <meta charset="UTF-8">
-        <meta name="viewport" content="width-device-width, initial-scale=1">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <title>KK's Portfolio Site</title>
-        
+        <script
+        src="https://code.jquery.com/jquery-3.4.1.js"
+        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+        crossorigin="anonymous"></script>
+
         <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="Assets/css/style.css">
@@ -15,9 +19,12 @@
             integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf"
             crossorigin="anonymous"
         />
+
         <style>
             @media screen and (min-width: 770px) and (max-width: 992px) {
-                .puppypics, .projlabel {
+                .puppypics
+                /* , .projlabel, .projlabel2  */
+                {
                     width: 200px;
                 }
 
@@ -57,10 +64,10 @@
                     width: 120%;
                 }
 
-                .projlabel {
+                /* .projlabel, .projlabel2 {
                     width: 95%;
                     font-size: 12px;
-                }
+                } */
 
                 .know {
                     font-size: 20px;
@@ -103,10 +110,10 @@
                 .puppypics {
                     width: 100%;
                 }
-
-                .projlabel {
+/* 
+                .projlabel, .projlabel2 {
                     width: 87%;
-                }
+                } */
             }
 
         </style>
@@ -125,12 +132,117 @@
             </div>            
         </header>
 
-        <div id="main" class="container-xs container-sm container-md container-lg container-xl wrapper">
+        <div id="main" class="container-xs container-sm container-md container-lg container-xl wrapper container-fluid">
             <div class="row">
                 <div class="col-4">
                     <h1>Knowledge</h1>
-
                     <div class="card">
+                        <div class="card-body">
+                            <div class=" text-center">
+
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/vuejs.png" class="badges">
+                                    <figcaption class="img-title">
+                                        Vue.js   
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/js.png" class="badges">
+                                    <figcaption class="img-title">
+                                        JavaScript  
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/js-product.png" class="badges" id="oop">
+                                    <figcaption class="img-title">
+                                        OOP 
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/jquery.png" class="badges">
+                                    <figcaption class="img-title">
+                                        JQuery  
+                                    </figcaption>
+                                </figure>
+                        
+                                <figure class="gallery-item">
+                                    <!-- <i class="show fab fa-npm" id="npm"></i> -->
+                                    <img src="Assets/Images/Npm-logo.svg" class="badges" id="npm">
+                                    <figcaption class="img-title">
+                                        NPM    
+                                    </figcaption>
+                                </figure>
+        
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/mysql.png" class="badges" id="mysql">
+                                    <figcaption class="img-title">
+                                        MYSQL   
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/nodejs.png" class="badges" id="nodejs">
+                                    <figcaption class="img-title">
+                                        Node.js    
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/mongodb.png" class="badges" id="mongodb">
+                                    <figcaption class="img-title">
+                                        Mongo DB   
+                                    </figcaption>
+                                </figure>
+
+
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/sequelize.png" class="badges"vid="sequelize">
+                                    <figcaption class="img-title">
+                                        Sequelize   
+                                    </figcaption>
+                                </figure>
+                                
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/bootstrappng.png" class="badges" id="bootstrap">
+                                    <figcaption class="img-title">
+                                        Bootstrap    
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/ajax.png" class="badges" id="ajax">
+                                    <figcaption class="img-title">
+                                        AJAX
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/CSS3.png" class="badges" id="css">
+                                    <figcaption class="img-title">
+                                        CSS    
+                                    </figcaption>
+                                </figure>
+
+                                <figure class="gallery-item">
+                                    <img src="Assets/Images/HTML5.png" class="badges" id="html">
+                                    <figcaption class="img-title">
+                                        HTML    
+                                    </figcaption>
+                                </figure>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+
+
+
+
+
+                    <!-- <div class="card">
                         <div class="card-body">
                             <p class="know text-center"><i class="show fab fa-js-square"></i>   JavaScript</p>
                         </div>
@@ -196,7 +308,7 @@
                         <div class="card-body">
                             <p class="know text-center"><i class="show fab fa-css3-alt"></i>    CSS</p>
                         </div>
-                    </div>
+                    </div> -->
 
                     
                 </div>
@@ -208,43 +320,49 @@
                         <div class="row">
                             <div class="col-sm-6">
                                 <img src="Assets/Images/quizz.jpg" class="puppypics">
-                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/JavaScript_Quiz" target="_blank">Quiz!</a></div>
+                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/JavaScript_Quiz" target="_blank">Quiz: Code</a></div>
+                                <div><a class="projlabel2" style="text-decoration: none" href="https://kkwoka.github.io/JavaScript_Quiz/" target="_blank">Application</a></div>
                             </div>
                             <div class="col-sm-6">
                                 <img src="Assets/Images/planner.png" class="puppypics">
-                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/DailyPlanner" target="_blank">Day Planner Project</a></div>
+                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/DailyPlanner" target="_blank">Day Planner: Code</a></div>
+                                <div><a class="projlabel2" style="text-decoration: none" href="https://kkwoka.github.io/DailyPlanner/" target="_blank">Application</a></div>
                             </div>
                             
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
                                 <img src="Assets/Images/password-big.png" class="puppypics">
-                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/passwordGenerator" target="_blank">Password Generator</a></div>
+                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/passwordGenerator" target="_blank">Password Generator: Code</a></div>
+                                <div><a class="projlabel2" style="text-decoration: none" href="https://kkwoka.github.io/passwordGenerator/" target="_blank">Application</a></div>
                             </div>
                             <div class="col-sm-6">
                                 <img src="Assets/Images/smorg.png" class="puppypics">
-                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/Smorgas-Chord" target="_blank">Smorgas-Chord</a></div>
+                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/Smorgas-Chord" target="_blank">Smorgas-Chord: Code</a></div>
+                                <div><a class="projlabel2" style="text-decoration: none" href="https://kkwoka.github.io/Smorgas-Chord/" target="_blank">Application</a></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
                                 <img src="Assets/Images/readme.webp" class="puppypics">
-                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/ReadME_Generator" target="_blank">README Generator</a></div>
+                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/ReadME_Generator" target="_blank">README Generator: Code</a></div>
                             </div>
                             <div class="col-sm-6">
                                 <img src="Assets/Images/weather.jpg" class="puppypics">
-                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/WeatherDashboard" target="_blank">Weather Dashboard</a></div>
+                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/WeatherDashboard" target="_blank">Weather Dashboard: Code</a></div>
+                                <div><a class="projlabel2" style="text-decoration: none" href="https://kkwoka.github.io/WeatherDashboard/" target="_blank">Application</a></div>
                             </div>
                         
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
                                 <img src="Assets/Images/notes.jpg" class="puppypics">
-                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/NoteTaker" target="_blank">Note Taker App</a></div>
+                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/NoteTaker" target="_blank">Note Taker: Code</a></div>
+                                <div><a class="projlabel2" style="text-decoration: none" href="https://evening-thicket-00801.herokuapp.com/" target="_blank">Application</a></div>
                             </div>
                             <div class="col-sm-6">
                                 <img src="Assets/Images/effective-employee-management.jpg" class="puppypics">
-                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/OOP" target="_blank">OOP Employee App</a></div>
+                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/OOP" target="_blank">OOP Employee: Code</a></div>
                             </div>
                         </div>
                         <div class="row">
@@ -254,13 +372,14 @@
                             </div>
                             <div class="col-sm-6">
                                 <img src="Assets/Images/employeeDatabase.png" class="puppypics">
-                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/EMS_mySQL" target="_blank">MySQL Employee Database</a></div>
+                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/EMS_mySQL" target="_blank">MySQL Employee DB: Code</a></div>
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
                                 <img src="Assets/Images/burger2.jpg" class="puppypics">
-                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/Eat-Da-Burger" target="_blank">Eat-Da-Burger</a></div>
+                                <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/Eat-Da-Burger" target="_blank">Eat-Da-Burger: Code</a></div>
+                                <div><a class="projlabel2" style="text-decoration: none" href="https://rocky-ocean-88521.herokuapp.com/" target="_blank">Application</a></div>
                             </div>
                             <div class="col-sm-6">
                                 <img src="https://via.placeholder.com/300/09f/fff.png" class="puppypics">
@@ -287,7 +406,7 @@
             <p>Copyright &copy; </p>
         </footer>
         <br>
-
+        <script src="Assets/js/portfolio.js"></script>
         <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     </body>
