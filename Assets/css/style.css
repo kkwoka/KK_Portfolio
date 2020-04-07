@@ -109,22 +109,23 @@ h1 {
 
 .projlabel {
     text-align: center;
-    background-color: thistle;
-    color: gray !important;
+    background-color: rgb(156, 52, 156);
+    color: white !important;
     position: absolute;
     left: 20px;
-    top: 100px;
-    padding: 10px;
+    top: 74px;
+    padding: 10px 25px 10px 25px;
 }
 
 .projlabel2 {
     text-align: center;
-    background-color: teal;
+    background-color: rgba(0, 128, 128);
     color: white !important;
     position: absolute;
     left: 20px;
-    top: 56px;
-    padding: 10px;
+    top: 30px;
+    padding: 10px 25px 10px 25px;
+    border-radius: 25px 0px 0px 0px ;
 }
 
 .description {
@@ -198,7 +199,7 @@ footer p {
 }
 
 #mongodb, #expressjs {
-    width: 85px;
+    width: 100px;
 }
 
 #html {
