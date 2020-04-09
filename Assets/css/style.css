@@ -221,7 +221,7 @@ footer p {
 .apiHeader {
     text-align: center;
     padding-bottom: 20px;
-    border-top: dashed teal;
+    /* border-top: dashed teal; */
 }
 
 #apiBox {
