@@ -34,6 +34,7 @@ ul {
 .headerTabs a {
     display: inline-block;
     color: grey;
+    font-weight: bold;
     text-align: center;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     text-decoration: none;
@@ -221,7 +222,6 @@ footer p {
 .apiHeader {
     text-align: center;
     padding-bottom: 20px;
-    /* border-top: dashed teal; */
 }
 
 #apiBox {
