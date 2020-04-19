@@ -12,10 +12,9 @@ function showPics() {
             let pic = $(`<img src='${imgURL}' width='400' height='400'></img>`).css('margin-bottom', '10px');
             $("#apiBox").append(`\n`);
             $("#apiBox").append(pic);
-
-        }
-    })
-}
+        };
+    });
+};
 
 function getPics() {
     let apiKey = "15905492-1fc69d8c442194d1c035bd455";
@@ -33,9 +32,8 @@ function getPics() {
             pic.attr('margin-bottom', '10px')
             $("#apiBox").append(`\n`);
             $("#apiBox").append(pic);
-
-        }
-    })
+        };
+    });
 };
 
 showPics();

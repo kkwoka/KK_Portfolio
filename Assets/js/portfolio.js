@@ -4,4 +4,4 @@ $(document).ready(function(){
     }, function() {
         $(this).find('.img-title').fadeOut(100);
     });
-  });
+});
