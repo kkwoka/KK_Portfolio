@@ -6,9 +6,10 @@
 
         <title>KK's Portfolio Site</title>
         <script
-        src="https://code.jquery.com/jquery-3.4.1.js"
-        integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
-        crossorigin="anonymous"></script>
+            src="https://code.jquery.com/jquery-3.4.1.js"
+            integrity="sha256-WpOohJOqMqqyKL9FccASB9O0KwACQJpFTUBLTYOVvVU="
+            crossorigin="anonymous">
+        </script>
 
         <link rel="stylesheet" type="text/css" href="Assets/css/reset.css">
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
@@ -21,12 +22,6 @@
 
         <style>
             @media screen and (min-width: 770px) and (max-width: 992px) {
-                .puppypics {
-                    width: 200px;
-                }
-                .description {
-                    width: 175px;
-                }
                 h1 {
                     font-size: 27px;
                 }
@@ -51,12 +46,6 @@
                 #main {
                     width: 590px;
                     margin: 0 auto;
-                }
-                .puppypics {
-                    width: 120%;
-                }
-                .description {
-                    width: 150px;
                 }
                 .know {
                     font-size: 20px;
@@ -116,118 +105,78 @@
         </header>
 
         <div id="main" class="container-xs container-sm container-md container-lg container-xl wrapper container-fluid">
-            <div class="row">
-                <div class="col-4">
-                    <h1>Knowledge</h1>
-                    <div class="card">
+                <div class="row">
+                    <div class="card" id="knowImgs" style="width: 100%">
                         <div class="card-body">
                             <div class=" text-center">
-                                <figure class="gallery-item">
-                                    <img src="Assets/Images/vuejs.png" class="badges">
-                                    <figcaption class="img-title"> Vue.js  </figcaption>
-                                </figure>
+                                    <img  src="Assets/Images/vuejs.png" class="badges">
+                                    <!-- Vue.js -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/js.png" class="badges">
-                                    <figcaption class="img-title"> JavaScript</figcaption>
-                                </figure>
+                                    <!-- JavaScript -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/js-product.png" class="badges" id="oop">
-                                    <figcaption class="img-title"> OOP</figcaption>
-                                </figure>
+                                    <!-- OOP -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/jquery.png" class="badges">
-                                    <figcaption class="img-title">JQuery</figcaption>
-                                </figure>
+                                    <!-- JQuery -->
                         
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/Npm-logo.svg" class="badges" id="npm">
-                                    <figcaption class="img-title">NPM </figcaption>
-                                </figure>
+                                    <!-- NPM -->
         
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/mysql.png" class="badges" id="mysql">
-                                    <figcaption class="img-title"> MYSQL  </figcaption>
-                                </figure>
+                                    <!-- MYSQL  -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/nodejs.png" class="badges" id="nodejs">
-                                    <figcaption class="img-title"> Node.js </figcaption>
-                                </figure>
+                                    <!-- Node.js  -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/express-min.png" class="badges" id="expressjs">
-                                    <figcaption class="img-title"> Express.js</figcaption>
-                                </figure>
+                                    <!-- Express.js -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/mongodb.png" class="badges" id="mongodb">
-                                    <figcaption class="img-title">Mongo DB </figcaption>
-                                </figure>
+                                    <!-- Mongo DB -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/indexeddb.png" class="badges" id="indexeddb">
-                                    <figcaption class="img-title"> IndexedDB </figcaption>
-                                </figure>
+                                    <!-- IndexedDB -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/nosql.png" class="badges" id="nosql">
-                                    <figcaption class="img-title"> No-SQL </figcaption>
-                                </figure>
+                                    <!-- No-SQL -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/sequelize.png" class="badges"vid="sequelize">
-                                    <figcaption class="img-title">Sequelize </figcaption>
-                                </figure>
+                                    <!-- Sequelize -->
                                 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/bootstrappng.png" class="badges" id="bootstrap">
-                                    <figcaption class="img-title">Bootstrap    </figcaption>
-                                </figure>
+                                    <!-- Bootstrap   -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/PWA.png" class="badges" id="pwa">
-                                    <figcaption class="img-title">PWA </figcaption>
-                                </figure>
+                                    <!-- PWA -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/ajax.png" class="badges" id="ajax">
-                                    <figcaption class="img-title"> AJAX </figcaption>
-                                </figure>
+                                     <!-- AJAX  -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/github.svg" class="badges" id="github">
-                                    <figcaption class="img-title"> Github </figcaption>
-                                </figure>
+                                    <!-- Github  -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/CSS3.png" class="badges" id="css">
-                                    <figcaption class="img-title">CSS </figcaption>
-                                </figure>
+                                    <!-- CSS  -->
 
-                                <figure class="gallery-item">
                                     <img src="Assets/Images/HTML5.png" class="badges" id="html">
-                                    <figcaption class="img-title">HTML</figcaption>
-                                </figure>
+                                    <!-- HTML -->
                             </div>
                         </div>
                     </div>
-                </div>
-  
-                <div class="col-8">
-                    <h1>Portfolio</h1>
+                <div class="row portCenter">
+                    <h1 class="col-sm-12">Portfolio</h1>
                     <div class="container-xs container-sm container-md container-lg container-xl wrapper">
                         <div class="row">
                             <div class="col-sm-6">
-                                <img src="Assets/Images/covid.jpg" class="puppypics">
+                                <img src="Assets/Images/covid.jpg" class="puppypics portCenter">
                                 <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/Project_2" target="_blank">Code</a></div>
                                 <div><a class="projlabel2" style="text-decoration: none" href="https://fast-wildwood-12677.herokuapp.com/#/" target="_blank">Application</a></div>
                                 <p class="description"><b>COVID-19 Patient Portal:</b> A Vue.js application to input patient information about COVID-19 testing.</p>
                             </div>
                             <div class="col-sm-6">
-                                <img src="Assets/Images/smorg.png" class="puppypics">
+                                <img src="Assets/Images/smorg.png" class="puppypics portCenter">
                                 <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/Smorgas-Chord" target="_blank">Code</a></div>
                                 <div><a class="projlabel2" style="text-decoration: none" href="https://kkwoka.github.io/Smorgas-Chord/" target="_blank">Application</a></div>
                                 <p class="description"><b>Smorgas-Chord:</b> An application for new guitar players to learn how to play songs with both guitar chords and their lyrics.</p>
@@ -235,12 +184,12 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
-                                <img src="Assets/Images/readme.webp" class="puppypics">
+                                <img src="Assets/Images/readme.webp" class="puppypics portCenter">
                                 <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/ReadME_Generator" target="_blank">Code</a></div>
                                 <p class="description"><b>README Generator:</b> A javascript axios / inquirer application to create a quality readme.</p>
                             </div>
                             <div class="col-sm-6">
-                                <img src="Assets/Images/weather.jpg" class="puppypics">
+                                <img src="Assets/Images/weather.jpg" class="puppypics portCenter">
                                 <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/WeatherDashboard" target="_blank">Code</a></div>
                                 <div><a class="projlabel2" style="text-decoration: none" href="https://kkwoka.github.io/WeatherDashboard/" target="_blank">Application</a></div>
                                 <p class="description"><b>Weather Dashboard:</b> A jquery application for viewing weather in any given city the user inputs.</p>
@@ -248,13 +197,13 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
-                                <img src="Assets/Images/burger2.jpg" class="puppypics">
+                                <img src="Assets/Images/burger2.jpg" class="puppypics portCenter">
                                 <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/Eat-Da-Burger" target="_blank">Code</a></div>
                                 <div><a class="projlabel2" style="text-decoration: none" href="https://rocky-ocean-88521.herokuapp.com/" target="_blank">Application</a></div>
                                 <p class="description"><b>Eat-Da-Burger:</b> An application using handlebars.js / MVC / ORM for creating burgers you want to eat and eating them.</p>
                             </div>
                             <div class="col-sm-6">
-                                <img src="Assets/Images/password-big.png" class="puppypics">
+                                <img src="Assets/Images/password-big.png" class="puppypics portCenter">
                                 <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/passwordGenerator" target="_blank">Code</a></div>
                                 <div><a class="projlabel2" style="text-decoration: none" href="https://kkwoka.github.io/passwordGenerator/" target="_blank">Application</a></div>
                                 <p class="description"><b>Password Generator:</b> A javascript application for creating difficult passwords with multiple options for added protection.</p>
@@ -262,26 +211,26 @@
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
-                                <img src="Assets/Images/quizz.jpg" class="puppypics">
+                                <img src="Assets/Images/quizz.jpg" class="puppypics portCenter">
                                 <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/JavaScript_Quiz" target="_blank">Code</a></div>
                                 <div><a class="projlabel2" style="text-decoration: none" href="https://kkwoka.github.io/JavaScript_Quiz/" target="_blank">Application</a></div>
                                 <p class="description"><b>Quiz:</b> A timed pop-culture javascript quiz.</p>
                             </div>
                             <div class="col-sm-6">
-                                <img src="Assets/Images/effective-employee-management.jpg" class="puppypics">
+                                <img src="Assets/Images/effective-employee-management.jpg" class="puppypics portCenter">
                                 <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/OOP" target="_blank">Code</a></div>
                                 <p class="description"><b>OOP Employee:</b> A javascript Object-Oriented Programming application using node.js / inquirer / jest for creating employees.
                             </div>
                         </div>
                         <div class="row">
                             <div class="col-sm-6">
-                                <img src="Assets/Images/notes.jpg" class="puppypics">
+                                <img src="Assets/Images/notes.jpg" class="puppypics portCenter">
                                 <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/NoteTaker" target="_blank">Code</a></div>
                                 <div><a class="projlabel2" style="text-decoration: none" href="https://evening-thicket-00801.herokuapp.com/" target="_blank">Application</a></div>
                                 <p class="description"><b>Note Taker:</b> A node.js / express.js application for taking and storing notes online.</p>
                             </div>
                             <div class="col-sm-6">
-                                <img src="Assets/Images/planner.png" class="puppypics">
+                                <img src="Assets/Images/planner.png" class="puppypics portCenter">
                                 <div><a class="projlabel" style="text-decoration: none" href="https://github.com/kkwoka/DailyPlanner" target="_blank">Code</a></div>
                                 <div><a class="projlabel2" style="text-decoration: none" href="https://kkwoka.github.io/DailyPlanner/" target="_blank">Application</a></div>
                                 <p class="description"><b>Day Planner:</b> A jquery application for scheduling your current day.</p>

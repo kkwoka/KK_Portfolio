@@ -60,7 +60,7 @@ h1 {
     color: teal;
     text-align: center;
     font-family: 'Georgia', Times, 'Times New Roman', serif;
-    margin-left: 20px;
+    /* margin-left: 20px; */
     margin-right: 20px;
     padding-top: 50px;
     padding-bottom: 20px;
@@ -129,9 +129,18 @@ h1 {
     border-radius: 25px 0px 0px 0px ;
 }
 
+/* #portHeader {
+    margin-right: 20px;
+} */
+
+#knowImgs {
+    /* margin-top: 20px; */
+    margin: 20px;
+}
+
 .description {
     margin: 10px;
-    width: 225px;
+    /* width: 225px; */
     text-align: center;
 }
 
@@ -196,7 +205,14 @@ footer p {
 
 .badges {
     width: 60px;
-    margin-bottom: 10px;
+    margin: 10px;
+}
+
+.portCenter{ 
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
 }
 
 #mongodb, #expressjs {
